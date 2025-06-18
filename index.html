@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/output.css" />
+    
+  </head>
+  <body  class="bg-black text-white">
+    <div class="flex container mx-auto ">
+      <div class="first md:w-full md:my-4 ">
+
+        <div class="sidebar flex sticky top-5 z-10 md:top-3.5 ">
+          <ul class=" text-2xl md:space-y-2 md:px-20 ">
+          <li class="logo invert md:mb-3 mb-5  px-5.5  ">
+          <svg viewBox="0 0 24 24"aria-hidden="true"class=" w-6  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+
+          </li>
+
+            <li class="flex items-center  md:w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class=" invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"></path></g></svg><span class="hidden md:block   ">Home</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M10.25 4.25c-3.314 0-6 2.686-6 6s2.686 6 6 6c1.657 0 3.155-.67 4.243-1.757 1.087-1.088 1.757-2.586 1.757-4.243 0-3.314-2.686-6-6-6zm-9 6c0-4.971 4.029-9 9-9s9 4.029 9 9c0 1.943-.617 3.744-1.664 5.215l4.475 4.474-2.122 2.122-4.474-4.475c-1.471 1.047-3.272 1.664-5.215 1.664-4.971 0-9-4.029-9-9z"></path></g></svg><span class="hidden md:block  ">Explore</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"></path></g></svg><span class="hidden md:block   ">Notifications</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z"></path></g></svg><span class="hidden md:block   ">Messages</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"> <svg viewBox="0 0 33 32" aria-hidden="true" class="invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg><span class="hidden md:block   ">Grok</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M7.501 19.917L7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-.444.478-.851 1.03-1.212 1.656-.507-.204-1.054-.329-1.658-.329-2.767 0-4.57 2.223-4.938 6.004H7.56c-.023.302-.05.599-.059.917zm15.998.056L23.528 21H9.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977s6.816 2.358 7 8.977zM21.437 19c-.367-3.781-2.17-6.004-4.938-6.004s-4.57 2.223-4.938 6.004h9.875zm-4.938-9c-.799 0-1.527-.279-2.116-.73-.836-.64-1.384-1.638-1.384-2.77 0-1.93 1.567-3.5 3.5-3.5s3.5 1.57 3.5 3.5c0 1.132-.548 2.13-1.384 2.77-.589.451-1.317.73-2.116.73zm-1.5-3.5c0 .827.673 1.5 1.5 1.5s1.5-.673 1.5-1.5-.673-1.5-1.5-1.5-1.5.673-1.5 1.5zM7.5 3C9.433 3 11 4.57 11 6.5S9.433 10 7.5 10 4 8.43 4 6.5 5.567 3 7.5 3zm0 2C6.673 5 6 5.673 6 6.5S6.673 8 7.5 8 9 7.327 9 6.5 8.327 5 7.5 5z"></path></g></svg><span class="hidden md:block   ">Communities</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24"aria-hidden="true"class="invert  w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg><span class="hidden md:block   ">Premium</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert  w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M7.323 2h11.443l-3 5h6.648L6.586 22.83 7.847 14H2.523l4.8-12zm1.354 2l-3.2 8h4.676l-.739 5.17L17.586 9h-5.352l3-5H8.677z"></path></g></svg><span class="hidden md:block  ">Verified Orgs</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4 mb-6 md:mb-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert  w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M17.863 13.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44zM12 2C9.791 2 8 3.79 8 6s1.791 4 4 4 4-1.79 4-4-1.791-4-4-4z"></path></g></svg><span class="hidden md:block   ">Profile</span></li>
+
+            <li class="flex items-center w-fit hover:bg-white/9 hover:border-0 hover:rounded-full hover:cursor-pointer hover:scale-110 px-5 py-1.5 gap-4"><svg viewBox="0 0 24 24" aria-hidden="true" class="invert  w-7  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z"></path></g></svg><span class="hidden md:block  ">More</span></li>
+
+            <li>
+                <div class="post text-center my-5 hidden md:block">
+                   <button class="bg-white text-black font-bold text-[17px] px-22.5 py-3.5  rounded-full hover:cursor-pointer hover:bg-white/90 border-0"><span>Post</span></button>
+                </div>
+
+                <div class="post md:hidden text-center my-5 mt-6">
+
+                  <button class="bg-white p-1 rounded-full hover:cursor-pointer hover:bg-white/90 border-0"><svg class="invert" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M200-200h57l391-391-57-57-391 391v57Zm-80 80v-170l528-527q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L290-120H120Zm640-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z"/></svg></button>
+                </div>
+            </li>
+
+            <li>
+
+            </li>
+          </ul>
+        </div>
+        <div class="hidden md:flex items-center ml-20.5 hover:cursor-pointer hover:bg-white/9 rounded-4xl p-3 fixed ">
+          <img alt="Santosh Naik" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png"class="hover:cursor-pointer w-10 h-10 rounded-full" />
+          <div class="flex flex-col ml-1.5">
+            <div class="font-bold text-[16px] hover:underline hover:decoration-1 hover:underline-offset-3">Santosh Naik</div>
+            <div class="opacity-80 text-[14px]">@SantoshNaik80424</div>
+          </div>
+          <div class="more pl-12 flex items-center justify-center">
+            <span class="material-symbols-outlined">more_horiz</span>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="second md:w-full  border border-y-black border-x-[#2f3336] ">
+        
+        <div class="top flex text-[14px] border-b border-b-[#2f3336] sticky top-0 bg-black backdrop-blur-lg opacity-85">
+          <div class="Foryou w-1/2 py-3 hover:bg-white/9 flex items-center justify-center font-bold cursor-pointer relative">
+            <span class="relative">For you<span class="absolute left-0 -bottom-3 w-full h-1 bg-blue-500 rounded-full"></span>
+             </span>
+          </div>
+
+        <div class="Following w-1/2 py-3 hover:bg-white/9 flex items-center justify-center text-[#71767b] cursor-pointer relative">
+            <span class="relative">Following<!-- No underline here when inactive --></span>
+          </div>
+        </div>
+
+      <div class="whatshappening flex items-center gap-4 my-4 mx-5">
+        <img alt="Santosh Naik" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png"class="hover:cursor-pointer w-10 h-10 rounded-full" />
+        <input class="w-full text-xl" type="text" placeholder="What’s happening?" />
+      </div>
+      <div class="globe flex items-center text-xs mx-18 font-bold hover:cursor-pointer hover:bg-white/9 w-fit rounded-full">
+        <span class="text-blue-500 py-1"><svg xmlns="http://www.w3.org/2000/svg"  height="15px" viewBox="0 -960 960 960" width="24px" fill="currentColor" class="fill-current" ><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-7-.5-14.5T799-507q-5 29-27 48t-52 19h-80q-33 0-56.5-23.5T560-520v-40H400v-80q0-33 23.5-56.5T480-720h40q0-23 12.5-40.5T563-789q-20-5-40.5-8t-42.5-3q-134 0-227 93t-93 227h200q66 0 113 47t47 113v40H400v110q20 5 39.5 7.5T480-160Z"/></svg></span>
+        <span class="text-blue-500 pr-1">Everyone can reply</span>
+      </div>
+        <hr class="ml-17 mr-5 my-4 border-0.5 border-[#2f3336]">
+        <div class="blueicons flex items-center text-blue-500 gap-1 ml-18 ">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class=" w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M3 5.5C3 4.119 4.119 3 5.5 3h13C19.881 3 21 4.119 21 5.5v13c0 1.381-1.119 2.5-2.5 2.5h-13C4.119 21 3 19.881 3 18.5v-13zM5.5 5c-.276 0-.5.224-.5.5v9.086l3-3 3 3 5-5 3 3V5.5c0-.276-.224-.5-.5-.5h-13zM19 15.414l-3-3-5 5-3-3-3 3V18.5c0 .276.224.5.5.5h13c.276 0 .5-.224.5-.5v-3.086zM9.75 7C8.784 7 8 7.784 8 8.75s.784 1.75 1.75 1.75 1.75-.784 1.75-1.75S10.716 7 9.75 7z"></path></g></svg>
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M3 5.5C3 4.119 4.12 3 5.5 3h13C19.88 3 21 4.119 21 5.5v13c0 1.381-1.12 2.5-2.5 2.5h-13C4.12 21 3 19.881 3 18.5v-13zM5.5 5c-.28 0-.5.224-.5.5v13c0 .276.22.5.5.5h13c.28 0 .5-.224.5-.5v-13c0-.276-.22-.5-.5-.5h-13zM18 10.711V9.25h-3.74v5.5h1.44v-1.719h1.7V11.57h-1.7v-.859H18zM11.79 9.25h1.44v5.5h-1.44v-5.5zm-3.07 1.375c.34 0 .77.172 1.02.43l1.03-.86c-.51-.601-1.28-.945-2.05-.945C7.19 9.25 6 10.453 6 12s1.19 2.75 2.72 2.75c.85 0 1.54-.344 2.05-.945v-2.149H8.38v1.032H9.4v.515c-.17.086-.42.172-.68.172-.76 0-1.36-.602-1.36-1.375 0-.688.6-1.375 1.36-1.375z"></path></g></svg>
+          </span>
+
+          <span>
+            <svg viewBox="0 0 33 32" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg>
+          </span>
+
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M6 5c-1.1 0-2 .895-2 2s.9 2 2 2 2-.895 2-2-.9-2-2-2zM2 7c0-2.209 1.79-4 4-4s4 1.791 4 4-1.79 4-4 4-4-1.791-4-4zm20 1H12V6h10v2zM6 15c-1.1 0-2 .895-2 2s.9 2 2 2 2-.895 2-2-.9-2-2-2zm-4 2c0-2.209 1.79-4 4-4s4 1.791 4 4-1.79 4-4 4-4-1.791-4-4zm20 1H12v-2h10v2zM7 7c0 .552-.45 1-1 1s-1-.448-1-1 .45-1 1-1 1 .448 1 1z"></path></g></svg>
+          </span>
+
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M8 9.5C8 8.119 8.672 7 9.5 7S11 8.119 11 9.5 10.328 12 9.5 12 8 10.881 8 9.5zm6.5 2.5c.828 0 1.5-1.119 1.5-2.5S15.328 7 14.5 7 13 8.119 13 9.5s.672 2.5 1.5 2.5zM12 16c-2.224 0-3.021-2.227-3.051-2.316l-1.897.633c.05.15 1.271 3.684 4.949 3.684s4.898-3.533 4.949-3.684l-1.896-.638c-.033.095-.83 2.322-3.053 2.322zm10.25-4.001c0 5.652-4.598 10.25-10.25 10.25S1.75 17.652 1.75 12 6.348 1.75 12 1.75 22.25 6.348 22.25 12zm-2 0c0-4.549-3.701-8.25-8.25-8.25S3.75 7.451 3.75 12s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25z"></path></g></svg>
+          </span>
+
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M6 3V2h2v1h6V2h2v1h1.5C18.88 3 20 4.119 20 5.5v2h-2v-2c0-.276-.22-.5-.5-.5H16v1h-2V5H8v1H6V5H4.5c-.28 0-.5.224-.5.5v12c0 .276.22.5.5.5h3v2h-3C3.12 20 2 18.881 2 17.5v-12C2 4.119 3.12 3 4.5 3H6zm9.5 8c-2.49 0-4.5 2.015-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.015 4.5-4.5-2.01-4.5-4.5-4.5zM9 15.5C9 11.91 11.91 9 15.5 9s6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5S9 19.09 9 15.5zm5.5-2.5h2v2.086l1.71 1.707-1.42 1.414-2.29-2.293V13z"></path></g></svg>
+          </span>
+
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" class="w-7 rounded-full p-1 fill-current hover:bg-white/9 hover:cursor-pointer r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" ><g><path d="M12 7c-1.93 0-3.5 1.57-3.5 3.5S10.07 14 12 14s3.5-1.57 3.5-3.5S13.93 7 12 7zm0 5c-.827 0-1.5-.673-1.5-1.5S11.173 9 12 9s1.5.673 1.5 1.5S12.827 12 12 12zm0-10c-4.687 0-8.5 3.813-8.5 8.5 0 5.967 7.621 11.116 7.945 11.332l.555.37.555-.37c.324-.216 7.945-5.365 7.945-11.332C20.5 5.813 16.687 2 12 2zm0 17.77c-1.665-1.241-6.5-5.196-6.5-9.27C5.5 6.916 8.416 4 12 4s6.5 2.916 6.5 6.5c0 4.073-4.835 8.028-6.5 9.27z"></path></g></svg>
+          </span>
+
+          <div class="post  ml-10 md:ml-50 mr-5">
+            <button class="bg-white/50 text-black font-bold text-[15px] px-4 py-1.5  rounded-full border-0">Post</button>
+          </div>
+        </div>
+         <hr class=" my-3.5 border-0.5 border-[#2f3336]">
+
+         <div class="twits gap-4 my-4 mx-5 hover:cursor-pointer">
+          <div class="postbl flex gap-2">
+            <div class="img w-fit flex-shrink-0">
+              <img alt="Image" draggable="true" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_400x400.png" class="css-9pa8cd hover:cursor-pointer w-10 h-10 rounded-full">
+            </div>
+            <div class="postinfo flex flex-col text-sm">
+              <div class="flex items-center gap-1">
+                              <span class="font-bold hover:underline">SportsCenter</span>
+              <svg viewBox="0 0 22 22" aria-label="Verified account" role="img" class=" w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i" data-testid="icon-verified"><g><linearGradient gradientUnits="userSpaceOnUse" id="0-a" x1="4.411" x2="18.083" y1="2.495" y2="21.508"><stop offset="0" stop-color="#f4e72a"></stop><stop offset=".539" stop-color="#cd8105"></stop><stop offset=".68" stop-color="#cb7b00"></stop><stop offset="1" stop-color="#f4ec26"></stop><stop offset="1" stop-color="#f4e72a"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="0-b" x1="5.355" x2="16.361" y1="3.395" y2="19.133"><stop offset="0" stop-color="#f9e87f"></stop><stop offset=".406" stop-color="#e2b719"></stop><stop offset=".989" stop-color="#e2b719"></stop></linearGradient><g clip-rule="evenodd" fill-rule="evenodd"><path d="M13.324 3.848L11 1.6 8.676 3.848l-3.201-.453-.559 3.184L2.06 8.095 3.48 11l-1.42 2.904 2.856 1.516.559 3.184 3.201-.452L11 20.4l2.324-2.248 3.201.452.559-3.184 2.856-1.516L18.52 11l1.42-2.905-2.856-1.516-.559-3.184zm-7.09 7.575l3.428 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="url(#0-a)"></path><path d="M13.101 4.533L11 2.5 8.899 4.533l-2.895-.41-.505 2.88-2.583 1.37L4.2 11l-1.284 2.627 2.583 1.37.505 2.88 2.895-.41L11 19.5l2.101-2.033 2.895.41.505-2.88 2.583-1.37L17.8 11l1.284-2.627-2.583-1.37-.505-2.88zm-6.868 6.89l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="url(#0-b)"></path><path d="M6.233 11.423l3.429 3.428 5.65-6.17.038-.033-.005 1.398-5.683 6.206-3.429-3.429-.003-1.405.005.003z" fill="#d18800"></path></g></g></svg>
+              <span class="text-gray-500 font-normal">@SportsCenter</span>
+              <span class="text-gray-500 font-normal mx-1">·</span>
+              <span class="text-gray-500 font-normal">14h</span>
+
+              </div>
+              
+              
+              <p class="text-[13px]">SGA was all BUCKETS in Game 4
+                <span class="text-blue-500 hover:underline ml-0.5">#NBAFinals</span>
+              </p>
+              <div class="postimg  w-[75%] md:w-[80%] my-4 ">
+                <img alt="Image" draggable="true" src="https://pbs.twimg.com/media/GtYBPx9WgAAbPly?format=jpg&amp;name=small" class="css-9pa8cd rounded-2xl ">
+              </div>
+
+<div class="icons text-gray-500 text-xs">
+  <div class="flex justify-between items-center">
+
+    <!-- Left 4 icons with counts -->
+    <div class="flex gap-5 md:gap-17.5">
+      <div class="flex items-center cursor-pointer hover:text-blue-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+        </span>
+        <span>1.7k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-green-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/></svg>
+        </span>
+        <span>16k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-pink-600">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+        </span>
+        <span>83k</span>
+      </div>
+      <div class="flex items-center  cursor-pointer hover:text-purple-500">
+        <span ><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></span>
+        <span>1.2M</span>
+      </div>
+    </div>
+
+    <div class="flex gap-2 md:gap-4">
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+         <path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/>
+       </svg>
+     </span>
+
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+          <path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+        </svg>
+      </span>
+    </div>
+
+
+  </div>
+</div>
+
+
+            </div>
+          </div>
+         </div>
+         <hr class=" my-3.5 border-0.5 border-[#2f3336]">
+         <div class="twits gap-4 my-4 mx-5 hover:cursor-pointer">
+          <div class="postbl flex gap-2">
+            <div class="img w-fit flex-shrink-0">
+              <img alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1735236330697981952/36slaxG__x96.jpg" class="css-9pa8cd hover:cursor-pointer w-10 h-10 rounded-full">
+            </div>
+            <div class="postinfo flex flex-col text-sm">
+              <div class="flex items-center gap-1">
+                              <span class="font-bold hover:underline">Nipun Marya</span>
+              <svg viewBox="0 0 22 22" aria-label="Verified account" role="img" class="text-blue-500 w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i" fill="currentColor" data-testid="icon-verified"><g><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"></path></g></svg>
+              <span class="text-gray-500 font-normal">@nipunmarya</span>
+              <span class="text-gray-500 font-normal mx-1">·</span>
+              <span class="text-gray-500 font-normal">6h</span>
+
+              </div>
+              
+              
+              <p class="text-[13px]">Lock in your guess!
+                <span class="text-blue-500 hover:underline ml-0.5">#iQOOZ10Lite #FullyLoadedEntertainment</span>
+              </p>
+              <div class="postimg  w-[85%] md:w-[85%] my-4 ">
+                <img alt="Image" draggable="true" src="https://pbs.twimg.com/media/GtkGmziXcAAp68O?format=jpg&amp;name=small" class="css-9pa8cd rounded-2xl">
+              </div>
+
+<div class="icons text-gray-500 text-xs">
+  <div class="flex justify-between items-center">
+
+    <!-- Left 4 icons with counts -->
+    <div class="flex gap-5 md:gap-17.5">
+      <div class="flex items-center cursor-pointer hover:text-blue-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+        </span>
+        <span>2.7k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-green-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/></svg>
+        </span>
+        <span>26k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-pink-600">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+        </span>
+        <span>103k</span>
+      </div>
+      <div class="flex items-center  cursor-pointer hover:text-purple-500">
+        <span ><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></span>
+        <span>2.2M</span>
+      </div>
+    </div>
+
+    <div class="flex gap-2 md:gap-4">
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+         <path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/>
+       </svg>
+     </span>
+
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+          <path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+        </svg>
+      </span>
+    </div>
+
+
+  </div>
+</div>
+
+
+            </div>
+          </div>
+         </div>
+          <hr class=" my-3.5 border-0.5 border-[#2f3336]">
+         <div class="twits gap-4 my-4 mx-5 hover:cursor-pointer">
+          <div class="postbl flex gap-2">
+            <div class="img w-fit flex-shrink-0">
+              <img alt="Image" draggable="true" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_400x400.png" class="css-9pa8cd hover:cursor-pointer w-10 h-10 rounded-full">
+            </div>
+            <div class="postinfo flex flex-col text-sm">
+              <div class="flex items-center gap-1">
+                              <span class="font-bold hover:underline">SportsCenter</span>
+              <svg viewBox="0 0 22 22" aria-label="Verified account" role="img" class=" w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i" data-testid="icon-verified"><g><linearGradient gradientUnits="userSpaceOnUse" id="0-a" x1="4.411" x2="18.083" y1="2.495" y2="21.508"><stop offset="0" stop-color="#f4e72a"></stop><stop offset=".539" stop-color="#cd8105"></stop><stop offset=".68" stop-color="#cb7b00"></stop><stop offset="1" stop-color="#f4ec26"></stop><stop offset="1" stop-color="#f4e72a"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="0-b" x1="5.355" x2="16.361" y1="3.395" y2="19.133"><stop offset="0" stop-color="#f9e87f"></stop><stop offset=".406" stop-color="#e2b719"></stop><stop offset=".989" stop-color="#e2b719"></stop></linearGradient><g clip-rule="evenodd" fill-rule="evenodd"><path d="M13.324 3.848L11 1.6 8.676 3.848l-3.201-.453-.559 3.184L2.06 8.095 3.48 11l-1.42 2.904 2.856 1.516.559 3.184 3.201-.452L11 20.4l2.324-2.248 3.201.452.559-3.184 2.856-1.516L18.52 11l1.42-2.905-2.856-1.516-.559-3.184zm-7.09 7.575l3.428 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="url(#0-a)"></path><path d="M13.101 4.533L11 2.5 8.899 4.533l-2.895-.41-.505 2.88-2.583 1.37L4.2 11l-1.284 2.627 2.583 1.37.505 2.88 2.895-.41L11 19.5l2.101-2.033 2.895.41.505-2.88 2.583-1.37L17.8 11l1.284-2.627-2.583-1.37-.505-2.88zm-6.868 6.89l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="url(#0-b)"></path><path d="M6.233 11.423l3.429 3.428 5.65-6.17.038-.033-.005 1.398-5.683 6.206-3.429-3.429-.003-1.405.005.003z" fill="#d18800"></path></g></g></svg>
+              <span class="text-gray-500 font-normal">@SportsCenter</span>
+              <span class="text-gray-500 font-normal mx-1">·</span>
+              <span class="text-gray-500 font-normal">14h</span>
+
+              </div>
+              
+              
+              <p class="text-[13px]">J.J. SPAUN WINS THE U.S. OPEN TO CLAIM HIS FIRST MAJOR TITLE
+                <span class="text-blue-500 hover:underline ml-0.5"></span>
+              </p>
+              <div class="mt-4">What a final round</div>
+              <div class="postimg  w-[75%] md:w-[80%] my-4 ">
+                <img alt="Image" draggable="true" src="https://pbs.twimg.com/media/GthhQJtWoAAGyzg?format=jpg&amp;name=medium" class="css-9pa8cd rounded-2xl">
+              </div>
+
+<div class="icons text-gray-500 text-xs">
+  <div class="flex justify-between items-center">
+
+    <!-- Left 4 icons with counts -->
+    <div class="flex gap-5 md:gap-17.5">
+      <div class="flex items-center cursor-pointer hover:text-blue-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+        </span>
+        <span>1k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-green-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/></svg>
+        </span>
+        <span>6k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-pink-600">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+        </span>
+        <span>53k</span>
+      </div>
+      <div class="flex items-center  cursor-pointer hover:text-purple-500">
+        <span ><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></span>
+        <span>800k</span>
+      </div>
+    </div>
+
+    <div class="flex gap-2 md:gap-4">
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+         <path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/>
+       </svg>
+     </span>
+
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+          <path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+        </svg>
+      </span>
+    </div>
+
+
+  </div>
+</div>
+
+
+            </div>
+          </div>
+         </div>
+
+         <hr class=" my-3.5 border-0.5 border-[#2f3336]">
+         <div class="twits gap-4 my-4 mx-5 hover:cursor-pointer">
+          <div class="postbl flex gap-2">
+            <div class="img w-fit flex-shrink-0">
+              <img alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1148885764488515586/tfOVEK0T_normal.png" class="css-9pa8cd hover:cursor-pointer w-10 h-10 rounded-full">
+            </div>
+            <div class="postinfo flex flex-col text-sm">
+              <div class="flex items-center gap-1">
+                              <span class="font-bold hover:underline">Dov Kleiman</span>
+               <svg viewBox="0 0 22 22" aria-label="Verified account" role="img" class="text-blue-500 w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i" fill="currentColor" data-testid="icon-verified"><g><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"></path></g></svg>
+              <span class="text-gray-500 font-normal">@NFL_DovKleiman</span>
+              <span class="text-gray-500 font-normal mx-1">·</span>
+              <span class="text-gray-500 font-normal">17h</span>
+
+              </div>
+              
+              
+              <p class="text-[13px]">Loyalty: South Carolina QB LaNorris Sellers turned down an $8 MILLION NIL offer to transfer to a different school.
+              <p class="mt-4">"You're 19. You don't need ($8 million). You're in a great spot." - LaNorris's Father told his son.</p>
+                <span class="text-blue-500 hover:underline ml-0.5"></span>
+              </p>
+              <div class="mt-4">Sellers values his word over money</div>
+              <div class="postimg  w-[95%] md:w-[95%] my-4 ">
+                <img alt="Image" draggable="true" src="https://pbs.twimg.com/media/Gtqa_9zaQAEQdSY?format=jpg&amp;name=small" class="css-9pa8cd rounded-4xl">
+              </div>
+
+<div class="icons text-gray-500 text-xs">
+  <div class="flex justify-between items-center">
+
+    <!-- Left 4 icons with counts -->
+    <div class="flex gap-5 md:gap-17.5">
+      <div class="flex items-center cursor-pointer hover:text-blue-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+        </span>
+        <span>1.2k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-green-500">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/></svg>
+        </span>
+        <span>2.1k</span>
+      </div>
+      <div class="flex items-center cursor-pointer hover:text-pink-600">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+        </span>
+        <span>30k</span>
+      </div>
+      <div class="flex items-center  cursor-pointer hover:text-purple-500">
+        <span ><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentcolor"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg></span>
+        <span>3.9M</span>
+      </div>
+    </div>
+
+    <div class="flex gap-2 md:gap-4">
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+         <path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/>
+       </svg>
+     </span>
+
+      <span class="cursor-pointer hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+          <path d="M440-320v-326L336-542l-56-58 200-200 200 200-56 58-104-104v326h-80ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+        </svg>
+      </span>
+    </div>
+
+
+  </div>
+</div>
+
+
+            </div>
+          </div>
+         </div>
+      </div>
+
+
+
+
+     <div class="third w-full hidden md:flex flex-col items-center ">
+  <div class="w-[90%] max-w-xl sticky top-0">
+    <!-- Search Bar -->
+    <div class="search flex items-center my-2 w-[90%]">
+      <div class="search_icon bg-black border border-[#2f3336] border-r-0 p-4  pr-1 rounded-l-full">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="invert w-4 opacity-75">
+          <g>
+            <path d="M10.25 4.25c-3.314 0-6 2.686-6 6s2.686 6 6 6c1.657 0 3.155-.67 4.243-1.757 1.087-1.088 1.757-2.586 1.757-4.243 0-3.314-2.686-6-6-6zm-9 6c0-4.971 4.029-9 9-9s9 4.029 9 9c0 1.943-.617 3.744-1.664 5.215l4.475 4.474-2.122 2.122-4.474-4.475c-1.471 1.047-3.272 1.664-5.215 1.664-4.971 0-9-4.029-9-9z"></path>
+          </g>
+        </svg>
+      </div>
+      <input
+        type="text"
+        class="bg-black border border-[#2f3336] border-l-0 pl-1 px-3 py-3 w-full rounded-full rounded-l-none outline-none"
+        placeholder="Search"
+      />
+    </div>
+
+    <!-- subcribe to premium -->
+     <div class="subscribe mt-3 flex flex-col bg-black border border-[#2f3336] px-5 py-2 rounded-3xl w-[90%]">
+      <h1 class="text-[22px] font-bold">Subscribe to Premium</h1>
+      <p class="text-[14px] py-3">Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
+
+      <div class="sub">
+        <button class="bg-blue-400 p-2 font-bold rounded-4xl px-5.5 hover:cursor-pointer hover:opacity-90">Subscribe</button>
+      </div>
+     </div>
+
+    <!-- What’s Happening Section -->
+    <div class="what mt-3 flex flex-col bg-black border border-[#2f3336]  py-2 rounded-3xl w-[90%]">
+      <h1 class="text-[22px] font-bold px-5">What’s happening</h1>
+      <div class="item py-3">
+        <div class="flex items-center px-5 hover:cursor-pointer hover:bg-white/9 py-2">
+          <div>
+            <div class="opacity-80 text-[13px]">Trending in India</div>
+            <div class="font-bold text-[15px]">WHAT A MATCH</div>
+            <div class="opacity-80 text-[13px]">17k posts</div>
+          </div>
+          <div class="more w-8 h-8 rounded-full ml-auto hover:cursor-pointer hover:bg-white/9 flex items-center justify-center">
+            <span class="material-symbols-outlined">more_horiz</span>
+          </div>
+        </div>
+        <div class="py-2 flex items-center px-5 hover:cursor-pointer hover:bg-white/9">
+          <div>
+          <div class="opacity-80 text-[13px]">Sports · Trending</div>
+          <div class="font-bold text-[15px]">Alcaraz</div>
+          <div class="opacity-80 text-[13px]">312K posts</div>
+          </div>
+          <div class="more w-8 h-8 rounded-full ml-auto hover:cursor-pointer hover:bg-white/9 flex items-center justify-center">
+            <span class="material-symbols-outlined">more_horiz</span>
+          </div>
+        </div>
+        <div class="py-2 flex items-center px-5 hover:cursor-pointer hover:bg-white/9">
+          <div>
+          <div class="opacity-80 text-[13px]">Politics · Trending</div>
+          <div class="font-bold text-[15px]">#AmitShah</div>
+          <div class="opacity-80 text-[13px]">8,130 posts</div>
+          </div>
+          <div class="more w-8 h-8 rounded-full ml-auto hover:cursor-pointer hover:bg-white/9 flex items-center justify-center">
+            <span class="material-symbols-outlined">more_horiz</span>
+          </div>
+        </div>
+        <div class="py-2 flex items-center px-5 hover:cursor-pointer hover:bg-white/9">
+          <div>
+          <div class="opacity-80 text-[13px]">Trending in India</div>
+          <div class="font-bold text-[15px]">#rinkusingh</div>
+          <div class="opacity-80 text-[13px]">16.4K posts</div>
+          </div>
+          <div class="more w-8 h-8 rounded-full ml-auto hover:cursor-pointer hover:bg-white/9 flex items-center justify-center">
+            <span class="material-symbols-outlined">more_horiz</span>
+          </div>
+        </div>
+        <div class="text-blue-400 text-[14px] pt-3 hover:cursor-pointer px-5">
+          Show more
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="what mt-3 mb-3 flex flex-col bg-black border border-[#2f3336] px-5 py-2 rounded-3xl w-[90%]">
+      <h1 class="text-[22px] font-bold">Who to follow</h1>
+      <div class="item py-2">
+        <div class="hover:cursor-pointer flex items-center">
+          <img alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1923268290434244608/QSMvQGO0_x96.jpg" class="css-9pa8cd hover:cursor-pointer w-8 h-8 rounded-full">
+          <div class="flex flex-col ml-1.5">
+            <div class="font-bold text-[13px] hover:underline hover:decoration-1 hover:underline-offset-3">Anupam Kher</div>
+            <div class="opacity-80 text-[11px]">@AnupamPKher</div>
+          </div>
+          <div class="follow ml-auto">
+            <button class="bg-white text-black text-sm font-semibold p-1.5 px-3.5 rounded-4xl hover:opacity-90 hover:cursor-pointer">Follow</button>
+          </div>
+        </div>
+        <div class="py-3 hover:cursor-pointer flex items-center">
+          <img alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1677636815606648832/axEaSSRr_x96.jpg" class="css-9pa8cd hover:cursor-pointer w-8 h-8 rounded-full">
+          <div class="flex flex-col ml-1.5">
+            <div class="font-bold text-[13px] hover:underline hover:decoration-1 hover:underline-offset-3">Sachin Tendulkar</div>
+            <div class="opacity-80 text-[11px]">@sachin_rt</div>
+          </div>
+          <div class="follow ml-auto">
+            <button class="bg-white text-black text-sm font-semibold p-1.5 px-3.5 rounded-4xl hover:opacity-90 hover:cursor-pointer">Follow</button>
+          </div>
+        </div>
+        <div class="hover:cursor-pointer flex items-center">
+          <img alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1780598434006990848/tvFneYaS_x96.jpg" class="css-9pa8cd hover:cursor-pointer w-8 h-8 rounded-full">
+          <div class="flex flex-col ml-1.5">
+            <div class="font-bold text-[13px] hover:underline hover:decoration-1 hover:underline-offset-3">Kevin Hart</div>
+            <div class="opacity-80 text-[11px]">@KevinHart4real</div>
+          </div>
+          <div class="follow ml-auto">
+            <button class="bg-white text-black text-sm font-semibold p-1.5 px-3.5 rounded-4xl hover:opacity-90 hover:cursor-pointer">Follow</button>
+          </div>
+        </div>
+        <div class="text-blue-400 text-[14px] pt-3 hover:cursor-pointer">
+          Show more
+        </div>
+      </div>
+    </div>
+
+    
+  <div class="Footer text-[#71767b] flex flex-wrap text-[11px] py-2 pb-20 px-5.5 w-[90%]">
+  <div class="flex flex-wrap gap-x-3 gap-y-2 ">
+    <span class="hover:underline cursor-pointer">Terms of Service</span>
+    <span >|</span>
+    <span class="hover:underline cursor-pointer">Privacy Policy</span>
+    <span >|</span>
+    <span class="hover:underline cursor-pointer">Cookie Policy</span>
+  </div>
+    <div class="flex items-center gap-2 mt-2">
+      <span class="hover:underline cursor-pointer">More</span>
+      <span><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentcolor" class="w-4 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-ip8ujx r-lzsi8w"><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg></span>
+      <span>© 2025 X Corp.</span>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+    </div>
+  </body>
+</html>
